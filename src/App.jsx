@@ -3,7 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-function mydata(props){
+function Mydata(props){
   return(
     <div>
       <h1>{props.name}</h1>
@@ -14,7 +14,7 @@ function mydata(props){
 function App() {
     return (
     <>
-      <mydata name="Jayanthi" age="30" />
+      <Mydata name="Jayanthi" age="30" />
     </>
   )
 }
